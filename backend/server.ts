@@ -11,9 +11,9 @@ const PORT = 4000;
 
 // NOTE: In production, do NOT expose these in code.
 //       Store them in environment variables or a secrets manager.
-const RYE_API_ENDPOINT = 'https://graphql.api.rye.com/v1/query';
-const RYE_AUTH_HEADER = 'Basic UllFL3Byb2R1Y3Rpb24tNzZhY2I2OGEyMTU1NGNkZGI2ZmM6';  // from console.rye.com
-const SHOPPER_IP = '73.47.92.49'; // Or your shopper's IP address, if available
+const RYE_API_ENDPOINT = 'https://graphql.api.rye.com/v1/query.';
+const RYE_AUTH_HEADER = 'Basic ';  // from console.rye.com
+const SHOPPER_IP = ''; // Or your shopper's IP address, if available
 
 app.use(cors());
 app.use(bodyParser.json());
